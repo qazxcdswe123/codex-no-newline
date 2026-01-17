@@ -1,0 +1,11 @@
+[package]
+name = "codex-no-newline"
+version = "0.1.0"
+edition = "2024"
+autobins = false
+
+[[bin]]
+name = "git-fix-eof-newline"
+path = "src/main.rs"
+
+[dependencies]
