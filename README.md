@@ -31,6 +31,28 @@ Prerequisites:
 - Rust toolchain (Cargo)
 - `git` available on `PATH`
 
+### Install with Cargo
+
+This project is not published to crates.io. You can still install it locally (or from a Git URL) using `cargo install`.
+
+Install from a local checkout:
+
+```bash
+cargo install --path .
+```
+
+Then run:
+
+```bash
+git-fix-eof-newline --help
+```
+
+Uninstall:
+
+```bash
+cargo uninstall git-fix-eof-newline
+```
+
 Build:
 
 ```bash
